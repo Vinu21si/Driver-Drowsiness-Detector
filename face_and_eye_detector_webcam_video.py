@@ -32,7 +32,7 @@ while True:
 
     cv.imshow('Video', frame)
 
-    if(cv.waitKey(1) & 0xFF == ord('q')):
+    if(cv.waitKey(1) & 0xFF == ord('w')):
         break
 
 #Finally when video capture is over, release the video capture and destroyAllWindows
